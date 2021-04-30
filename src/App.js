@@ -4,9 +4,10 @@ import "./App.css";
 // import Basic2 from './components/Basic2'
 // import BasicUseEffect from "./components/BasicUseEffect";
 // import TimerContainer from "./components/TimerContainer";
-import ApiFetch from "./components/ApiFetch";
+// import ApiFetch from "./components/ApiFetch";
 import AppContext from "./contexts/AppContext";
-import B from './components/B'
+// import B from './components/B'
+import BasicReducer from './components/BasicReducer';
 
 
 function App() {
@@ -19,8 +20,9 @@ function App() {
           {/*<Basic2/>*/}
           {/*<BasicUseEffect />*/}
           {/*<TimerContainer />*/}
-          <ApiFetch />
-          <B />
+          {/* <ApiFetch />
+          <B /> */}
+          <BasicReducer />
         </header>
       </div>
     </AppContext.Provider>

@@ -9,6 +9,7 @@ import AppContext from "./contexts/AppContext";
 // import B from './components/B'
 // import BasicReducer from './components/BasicReducer';
 import CompB from './components/CompB'
+import Memo from "./components/Memo";
 
 
 const initialState = 0
@@ -42,8 +43,10 @@ function App() {
           <B /> */}
           {/* <BasicReducer /> */}
           
-          <h2>Count {count}</h2>
-          <CompB />
+          {/*<h2>Count {count}</h2>*/}
+          {/*<CompB />*/}
+
+          <Memo />
 
         </header>
       </div>
